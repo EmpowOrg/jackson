@@ -5,7 +5,7 @@ const oidcPath = '/api/oauth/oidc';
 const idpDiscoveryPath = '/idp/select';
 
 const hostUrl = process.env.HOST_URL || 'localhost';
-const hostPort = Number(process.env.PORT || '5225');
+const hostPort = Number(process.env.PORT || '12345');
 const externalUrl = process.env.EXTERNAL_URL || 'http://' + hostUrl + ':' + hostPort;
 const apiKeys = (process.env.JACKSON_API_KEYS || '').split(',');
 
